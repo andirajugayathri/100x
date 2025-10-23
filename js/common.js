@@ -1492,7 +1492,7 @@ Function First Load
 				return $("header").data('menucolor')
 			});
 			
-			gsap.to("main", {duration: 0.5, backgroundColor: document.querySelector("#clapat-page-content").getAttribute("data-bgcolor"), ease:Power2.easeInOut});
+			gsap.to("main", {duration: 0.1, backgroundColor: document.querySelector("#clapat-page-content").getAttribute("data-bgcolor"), ease:Power2.easeInOut});
 			
 			$('#magic-cursor').addClass('light-content');
 			if( $('#hero').length > 0 ){						
@@ -1518,7 +1518,7 @@ Function First Load
 				return $("header").data('menucolor')
 			});	
 			
-			gsap.to("main", {duration: 0.5, backgroundColor: document.querySelector("#clapat-page-content").getAttribute("data-bgcolor"), ease:Power2.easeInOut});
+			gsap.to("main", {duration: 0, backgroundColor: document.querySelector("#clapat-page-content").getAttribute("data-bgcolor"), ease:Power2.easeInOut});
 			
 			$('#magic-cursor').removeClass('light-content');
 			if( $('#hero').length > 0 ){	
