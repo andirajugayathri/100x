@@ -1131,12 +1131,12 @@ header:not(.custom-header) {
 	
 	a:hover, a:active {
 	  outline: 0;
-	  color: #000;
+	  color: #fff;
 	}
 	
 	a, .light-content .light-section a {
 		text-decoration: none;
-		color: #000;
+		color: #fff;
 		outline: 0;
 	}
 	
